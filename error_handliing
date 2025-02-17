@@ -1,0 +1,7 @@
+num=30
+print('num='+num)
+#this code is going to give TYPE ERROR as the type of num is int and it cant be cancatenated
+
+num=20
+print('num='+num1)
+#this code gives NAME ERROR as num1 is not declareed
