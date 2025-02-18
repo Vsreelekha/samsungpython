@@ -5,3 +5,6 @@ print('num='+num)
 num=20
 print('num='+num1)
 #this code gives NAME ERROR as num1 is not declareed
+
+if we try to access the elment which is not present in the list or tuple...
+it will give an INDEX ERROR
