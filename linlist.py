@@ -43,10 +43,21 @@ class linkedlist:
             print(current.data)
             current=current.next
         print('none')
+    def reverse(self):
+        list1=[]
+        current=self.head
+        while current:
+            list1.append(current.data)
+            current=current.next
+        i=len(list1)-1
+        while(i>=0):
+            print(list1[i])
+            i-=1
 l1=linkedlist()
 l1.append(20)
 l1.append(15)
 l1.append(2)
 l1.display()
 l1.deleteatpos(1) 
-l1.display()       
+l1.display() 
+l1.reverse()      
